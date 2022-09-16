@@ -1,0 +1,66 @@
+/*--------------------
+    RESET
+--------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------
+    COMMON    
+--------------------*/
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+/*--------------------
+    TYPOGRAPHY    
+--------------------*/
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+h1 {
+    font-size: 38px;
+    color: #E53170;
+    margin-bottom: 40px;
+}
+
+/*--------------------
+    MAIN    
+--------------------*/
+.header-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
+    background-color: #0f0e17;
+    color: #fff;
+    box-shadow: 0px 0px 10px 5px rgb(200 200 200);
+}
+.card-img {
+    display: block;
+    width: 100px;
+}
+.card-info {
+    padding-left: 15px;
+}
+.card-info > a {
+    text-decoration: none;
+    color: #63cbf2;
+}
+.team-role {
+    margin: 10px 0;
+}
